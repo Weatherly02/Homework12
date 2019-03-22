@@ -1,0 +1,2 @@
+Dealer's Hand was 19 points.
+Hearts - 5, Diamonds - 11, Spades - 3, Clubs - 9, Hearts - 13, 
