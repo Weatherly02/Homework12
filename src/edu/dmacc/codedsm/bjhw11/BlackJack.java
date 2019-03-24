@@ -102,19 +102,16 @@ public class BlackJack<sumOfDealerHand> {
 
                 dealerHand.addAll(nextDealerCard);
                 removeCardFromDeck(deck, nextDealerCard.get(0));
+
             } else if (dealerSum == 21) {
                 System.out.println("Dealer wins blackjack");
                 System.exit(0);
             } else {
                 continueDealerGame = false;
             }
-
-
             System.out.println("Dealer's hand is: ");
             showHand(dealerHand);
-
         }
-
         // decide winner
         boolean isPlayerTheWinner = false;
         boolean isTie = false;
@@ -134,12 +131,11 @@ public class BlackJack<sumOfDealerHand> {
         }
 
         try {
-            writeToFile(playerHand, dealerHand, playerSum, dealerSum, isTie, isPlayerTheWinner);
+            writeToFile(playerHand, playerSum, dealerHand, dealerSum, isTie, isPlayerTheWinner);
         } catch (Exception ex) {
-            System.out.println(1);
+            System.out.println("You got an error");
         }
     }
-
     private static Map<String, List<Integer>> initializeDeck() {
         Map<String, List<Integer>> deck = new HashMap<>();
         deck.put("Clubs", createCards());
@@ -149,7 +145,6 @@ public class BlackJack<sumOfDealerHand> {
 
         return deck;
     }
-
     private static List<Integer> createCards() {
         List<Integer> cards = new ArrayList<>();
 
@@ -176,26 +171,29 @@ public class BlackJack<sumOfDealerHand> {
         System.out.println("Invalid input");
     }
 
-    public static void writeToFile(List<Card> playerCards, List<Card> dealerCards, Integer playerSumOfHand, Integer dealerSumOfHand, Boolean isTie, Boolean isPlayerTheWinner)
+    public static void writeToFile(List<Card> playerCards, Integer playerSumOfHand, List<Card> dealerCards, Integer dealerSumOfHand, Boolean isTie, Boolean isPlayerTheWinner)
             throws IOException {
         FileWriter fileWriter = new FileWriter("blackjack_log.txt");
         PrintWriter printWriter = new PrintWriter(fileWriter);
-        //printWriter.println("test");
 
         if (isTie) {
-            printWriter.printf("It\'s a tie!");
-        } else if (isPlayerTheWinner) {
-            printWriter.printf("Player\'s Hand was %d points.\n", playerSumOfHand);
-        } else {
+            printWriter.printf("It\'s a tie!\nPlayer\'s Hand was %d points.\n", playerSumOfHand);
             printWriter.printf("Dealer\'s Hand was %d points.\n", dealerSumOfHand);
-        }
 
+        } else if (isPlayerTheWinner) {
+            printWriter.printf("%s%nPlayer\'s Hand was %d points.\nDealer\'s Hand was %d points.", "Player Wins", playerSumOfHand, dealerSumOfHand); //players score
+
+        } else {
+            printWriter.printf("%s%nDealer\'s Hand was %d points.\nPlayer\'s Hand was %d points", "Dealer Wins", dealerSumOfHand, playerSumOfHand); //dealers score
+        }
+        printWriter.printf("%n%s", "Player cards:");
         for (Card card : playerCards) {
-            printWriter.printf("%s - %d, ", card.suit, card.value);
-        }
+            printWriter.printf(" %s - %d, ", card.suit, card.value);
 
+        }
+        printWriter.printf("%n%s", "Dealer cards:");
         for (Card card : dealerCards) {
-            printWriter.printf("%s - %d, ", card.suit, card.value);
+            printWriter.printf(" %s - %d, ", card.suit, card.value);
         }
 
         printWriter.close();

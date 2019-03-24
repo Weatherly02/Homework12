@@ -1,2 +1,6 @@
-Dealer's Hand was 19 points.
-Hearts - 5, Diamonds - 11, Spades - 3, Clubs - 9, Hearts - 13, 
+It's a tie!
+Player's Hand was 17 points.
+Dealer's Hand was 17 points.
+
+Player cards: Diamonds - 2,  Spades - 1,  Diamonds - 7,  Clubs - 7, 
+Dealer cards: Spades - 7,  Clubs - 11, 

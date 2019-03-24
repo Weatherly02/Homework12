@@ -2,12 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb0c1c00-17ae-457f-90d8-51740bd77343" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/blackjack_log.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Homework8b/src/edu/dmacc/codedsm/hw8/arrayWork.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Homework9/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Lab 9/a_text_file.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticeHomework9/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../rolo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackjack_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeworkBlackJack/blackjack_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HomeworkBlackJack/edu/dmacc/codedsm/bjhw11/BlackJack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeworkBlackJack/edu/dmacc/codedsm/bjhw11/BlackJack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/blackjack_log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,18 +31,11 @@
         <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5666#5667#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blackjack_log.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -51,7 +50,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/DeckRandomizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="629">
               <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
             </state>
           </provider>
@@ -59,7 +58,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blackjack_log.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -75,14 +78,15 @@
     <findStrings>
       <find>removeCardFromDeck</find>
       <find>showHand</find>
-      <find>playerSum</find>
       <find>playerSumOfHand</find>
       <find>outp</find>
       <find>playerHand</find>
+      <find>%s</find>
+      <find>playerSum</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -106,22 +110,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Homework Black Jack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework Black Jack" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeworkBlackJack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeworkBlackJack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Homework Black Jack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework Black Jack" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeworkBlackJack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeworkBlackJack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Homework Black Jack" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Homework Black Jack" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeworkBlackJack" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HomeworkBlackJack" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bjhw11" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -129,13 +132,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553220987091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553398977122" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -190,16 +194,18 @@
       <updated>1553014345804</updated>
       <workItem from="1553014349314" duration="22161000" />
       <workItem from="1553059456166" duration="37355000" />
+      <workItem from="1553221132217" duration="20578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59516000" />
+    <option name="totallyTimeSpent" value="80094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.147651" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.14966443" />
       <window_info id="Structure" order="1" sideWeight="0.50096714" side_tool="true" weight="0.147651" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,7 +214,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50096714" side_tool="true" weight="0.147651" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26770538" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24787535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -218,7 +224,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32841823" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32719547" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Maven" order="2" />
@@ -227,18 +233,18 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="right" id="Ant Build" order="8" visible="true" weight="0.24899329" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.24899329" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.147651" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49903288" visible="true" weight="0.14966443" />
       <window_info id="Structure" order="1" sideWeight="0.50096714" side_tool="true" weight="0.147651" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50096714" side_tool="true" visible="true" weight="0.147651" />
+      <window_info id="Favorites" order="6" sideWeight="0.50096714" side_tool="true" weight="0.147651" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26770538" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -269,6 +275,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Output.java" />
     <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/Card.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -276,16 +283,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/DeckRandomizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="629">
           <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
         </state>
       </provider>
@@ -294,15 +294,17 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/blackjack_log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5666#5667#0" expanded="true" />
           </folding>
         </state>
       </provider>
