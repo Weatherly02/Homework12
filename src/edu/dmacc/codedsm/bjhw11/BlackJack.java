@@ -1,17 +1,11 @@
 package edu.dmacc.codedsm.bjhw11;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.*;
 
-import static sun.security.krb5.internal.crypto.Nonce.value;
-
-public class BlackJack<sumOfDealerHand> {
-
-    private static String dealerInput;
+public class BlackJack {
 
     public static void main(String[] args) {
         Map<String, List<Integer>> deck = initializeDeck();
@@ -152,7 +146,6 @@ public class BlackJack<sumOfDealerHand> {
             cards.add(i);
         }
         return cards;
-
     }
 
     private static void removeCardFromDeck(Map<String, List<Integer>> deck, Card card) {
@@ -189,15 +182,11 @@ public class BlackJack<sumOfDealerHand> {
         printWriter.printf("%n%s", "Player cards:");
         for (Card card : playerCards) {
             printWriter.printf(" %s - %d, ", card.suit, card.value);
-
         }
         printWriter.printf("%n%s", "Dealer cards:");
         for (Card card : dealerCards) {
             printWriter.printf(" %s - %d, ", card.suit, card.value);
         }
-
         printWriter.close();
-
-
     }
 }

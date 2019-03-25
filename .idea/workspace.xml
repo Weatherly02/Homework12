@@ -7,12 +7,9 @@
       <change afterPath="$PROJECT_DIR$/../Lab 9/a_text_file.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../PracticeHomework9/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../rolo/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blackjack_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/blackjack_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HomeworkBlackJack/blackjack_log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/HomeworkBlackJack/edu/dmacc/codedsm/bjhw11/BlackJack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HomeworkBlackJack/edu/dmacc/codedsm/bjhw11/BlackJack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blackjack_log.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,10 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="446">
+              <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,18 +38,14 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/DeckRandomizer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -59,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blackjack_log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            <state relative-caret-position="68">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -83,6 +77,10 @@
       <find>playerHand</find>
       <find>%s</find>
       <find>playerSum</find>
+      <find>writeToFile</find>
+      <find>PlayerWins</find>
+      <find>card</find>
+      <find>dealerInput</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -94,15 +92,16 @@
         <option value="$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/DeckRandomizer.java" />
         <option value="$PROJECT_DIR$/src/Output.java" />
         <option value="$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/Card.java" />
+        <option value="$PROJECT_DIR$/blackjack_log.txt" />
         <option value="$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="800" />
-    <option name="y" value="320" />
-    <option name="width" value="930" />
-    <option name="height" value="785" />
+    <option name="x" value="30" />
+    <option name="y" value="60" />
+    <option name="width" value="1160" />
+    <option name="height" value="980" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -132,14 +131,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553398977122" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553478790883" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -194,12 +193,13 @@
       <updated>1553014345804</updated>
       <workItem from="1553014349314" duration="22161000" />
       <workItem from="1553059456166" duration="37355000" />
-      <workItem from="1553221132217" duration="20578000" />
+      <workItem from="1553221132217" duration="37842000" />
+      <workItem from="1553476266695" duration="2518000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80094000" />
+    <option name="totallyTimeSpent" value="99876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -276,36 +276,31 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Output.java" />
+    <entry file="file://$PROJECT_DIR$/src/blackjack_log.txt" />
     <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/DeckRandomizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/blackjack_log.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/blackjack_log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="68">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/BlackJack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="446">
+          <caret line="46" column="37" lean-forward="true" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/dmacc/codedsm/bjhw11/DeckRandomizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
